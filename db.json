@@ -1,0 +1,4109 @@
+{
+
+
+
+	"data": [{
+
+
+
+		"id": "bills-and-payments",
+
+
+
+		"type": "categories",
+
+
+
+		"attributes": {
+
+
+
+			"title": "Bills & payments",
+
+
+
+			"description": "Direct debit, credit, viewing and paying bills",
+
+
+
+			"icon-class": "bgcss-icon-bill",
+
+
+
+			"tier2-question": "Is it about your Energy or your Home Services?"
+
+
+
+		},
+
+
+
+		"relationships": {
+
+
+
+			"support-params": {
+
+
+
+				"data": [{
+
+
+
+					"id": "1",
+
+
+
+					"type": "support-params"
+
+
+
+				}, {
+
+
+
+					"id": "2",
+
+
+
+					"type": "support-params"
+
+
+
+				}]
+
+
+
+			}
+
+
+
+		}
+
+
+
+	}, {
+
+
+
+		"id": "appliances-and-engineers",
+
+
+
+		"type": "categories",
+
+
+
+		"attributes": {
+
+
+
+			"title": "Appliances & engineers",
+
+
+
+			"description": "Boiler servicing, radiators, gas appliances",
+
+
+
+			"icon-class": "bgcss-icon-appliances"
+
+
+
+		},
+
+
+
+		"relationships": {
+
+
+
+			"support-params": {
+
+
+
+				"data": [{
+
+
+
+					"id": "3",
+
+
+
+					"type": "support-params"
+
+
+
+				}]
+
+
+
+			}
+
+
+
+		}
+
+
+
+	}, {
+
+
+
+		"id": "breakdowns",
+
+
+
+		"type": "categories",
+
+
+
+		"attributes": {
+
+
+
+			"title": "Breakdowns",
+
+
+
+			"description": "Broken boilers, heating & electricity malfunctions",
+
+
+
+			"icon-class": "bgcss-icon-engineer-appointment",
+
+
+
+			"tier2-question": "Is it about your Energy or your Home Services?"
+
+
+
+		},
+
+
+
+		"relationships": {
+
+
+
+			"support-params": {
+
+
+
+				"data": [{
+
+
+
+					"id": "4",
+
+
+
+					"type": "support-params"
+
+
+
+				}, {
+
+
+
+					"id": "5",
+
+
+
+					"type": "support-params"
+
+
+
+				}]
+
+
+
+			}
+
+
+
+		}
+
+
+
+	}, {
+
+
+
+		"id": "moving-home",
+
+
+
+		"type": "categories",
+
+
+
+		"attributes": {
+
+
+
+			"title": "Moving home",
+
+
+
+			"description": "Gas and electricity supply, updating your billing",
+
+
+
+			"icon-class": "bgcss-icon-home-move"
+
+
+
+		},
+
+
+
+		"relationships": {
+
+
+
+			"support-params": {
+
+
+
+				"data": [{
+
+
+
+					"id": "6",
+
+
+
+					"type": "support-params"
+
+
+
+				}]
+
+
+
+			}
+
+
+
+		}
+
+
+
+	}, {
+
+
+
+		"id": "my-account",
+
+
+
+		"type": "categories",
+
+
+
+		"attributes": {
+
+
+
+			"title": "My account",
+
+
+
+			"description": "Email addresses, passwords, registration & tariffs",
+
+
+
+			"icon-class": "bgcss-icon-dashboard",
+
+
+
+			"tier2-question": "Is it about your Energy or your Home Services?"
+
+
+
+		},
+
+
+
+		"relationships": {
+
+
+
+			"support-params": {
+
+
+
+				"data": [{
+
+
+
+					"id": "7",
+
+
+
+					"type": "support-params"
+
+
+
+				}, {
+
+
+
+					"id": "8",
+
+
+
+					"type": "support-params"
+
+
+
+				}]
+
+
+
+			}
+
+
+
+		}
+
+
+
+	}, {
+
+
+
+		"id": "meters",
+
+
+
+		"type": "categories",
+
+
+
+		"attributes": {
+
+
+
+			"title": "Meters",
+
+
+
+			"description": "Payment issues, topping up, broken meters",
+
+
+
+			"icon-class": "bgcss-icon-meter",
+
+
+
+			"tier2-question": "How do you pay for your energy?"
+
+
+
+		},
+
+
+
+		"relationships": {
+
+
+
+			"support-params": {
+
+
+
+				"data": [{
+
+
+
+					"id": "9",
+
+
+
+					"type": "support-params"
+
+
+
+				}, {
+
+
+
+					"id": "10",
+
+
+
+					"type": "support-params"
+
+
+
+				}]
+
+
+
+			}
+
+
+
+		}
+
+
+
+	}, {
+
+
+
+		"id": "technical-support",
+
+
+
+		"type": "categories",
+
+
+
+		"attributes": {
+
+
+
+			"title": "Technical support",
+
+
+
+			"description": "Help with the app and smart home controls",
+
+
+
+			"icon-class": "bgcss-icon-tech-support"
+
+
+
+		},
+
+
+
+		"relationships": {
+
+
+
+			"support-params": {
+
+
+
+				"data": [{
+
+
+
+					"id": "11",
+
+
+
+					"type": "support-params"
+
+
+
+				}]
+
+
+
+			}
+
+
+
+		}
+
+
+
+	}],
+
+
+
+	"included": [{
+
+
+
+			"id": "1",
+
+
+
+			"type": "support-params",
+
+
+
+			"attributes": {
+
+
+
+				"formatted-answer": "gas-and-electricity",
+
+
+
+				"answer-supporting-info": "<p><span class=\"small-text\">Including gas & electricity products and services<\/span><\/p>\n",
+
+
+
+				"label": "Energy",
+
+
+
+				"telephone-numbers": [{
+
+
+
+					"label": "Account enquiries",
+
+
+
+					"number": "0333 202 9802",
+
+
+
+					"superscript": "5"
+
+
+
+				}, {
+
+
+
+					"label": "Pay As You Go enquiries",
+
+
+
+					"number": "0330 100 0303",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Textphone",
+
+
+
+					"number": "18001 0800 072 8626",
+
+
+
+					"superscript": "1"
+
+
+
+				}],
+
+
+
+				"query-types": [{
+
+
+
+					"value": "Billing enquiry or Meter reading"
+
+
+
+				}, {
+
+
+
+					"value": "Refunds"
+
+
+
+				}, {
+
+
+
+					"value": "Tariff or prices"
+
+
+
+				}, {
+
+
+
+					"value": "Direct Debit or Payment scheme"
+
+
+
+				}, {
+
+
+
+					"value": "Other Bills & payment enquiries"
+
+
+
+				}, {
+
+
+
+					"value": "Raise a complaint"
+
+
+
+				}],
+
+
+
+				"articles": [{
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/how-can-i-get-my-credit-refunded",
+
+
+
+					"label": "how-can-i-get-my-credit-refunded",
+
+
+
+					"title": "Refunding your credit"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/how-can-i-pay-my-bill",
+
+
+
+					"label": "how-can-i-pay-my-bill",
+
+
+
+					"title": "Paying your bill"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/how-can-i-see-my-bill",
+
+
+
+					"label": "how-can-i-see-my-bill",
+
+
+
+					"title": "Seeing your bill"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/can-i-set-up-a-direct-debit",
+
+
+
+					"label": "can-i-set-up-a-direct-debit",
+
+
+
+					"title": "Setting up a Direct Debit"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/what-if-i-think-my-bills-wrong",
+
+
+
+					"label": "what-if-i-think-my-bills-wrong",
+
+
+
+					"title": "If your bill\u2019s wrong"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/can-i-change-my-direct-debit",
+
+
+
+					"label": "can-i-change-my-direct-debit",
+
+
+
+					"title": "Changing your Direct Debit"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/can-you-help-me-if-im-having-trouble-paying",
+
+
+
+					"label": "can-you-help-me-if-im-having-trouble-paying",
+
+
+
+					"title": "Help if you\u2019re struggling to pay"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/am-i-owed-money",
+
+
+
+					"label": "am-i-owed-money",
+
+
+
+					"title": "Claiming money we owe you"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/how-do-i-change-whether-i-have-paperless-billing",
+
+
+
+					"label": "how-do-i-change-whether-i-have-paperless-billing",
+
+
+
+					"title": "Getting a paper copy of my bill"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/what-if-ive-got-a-bill-that-isnt-for-me",
+
+
+
+					"label": "what-if-ive-got-a-bill-that-isnt-for-me",
+
+
+
+					"title": "Telling us if your bill has the wrong name"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/how-do-i-sort-out-someones-account-if-theyve-passed-away",
+
+
+
+					"label": "how-do-i-sort-out-someones-account-if-theyve-passed-away",
+
+
+
+					"title": "Arranging someone\u2019s account after they've passed away"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/understanding-economy-7-meters",
+
+
+
+					"label": "understanding-economy-7-meters",
+
+
+
+					"title": "Understanding Economy 7 meters"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/can-i-cancel-my-direct-debit",
+
+
+
+					"label": "can-i-cancel-my-direct-debit",
+
+
+
+					"title": "Cancelling your Direct Debit"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/how-do-i-get-a-new-payment-card",
+
+
+
+					"label": "how-do-i-get-a-new-payment-card",
+
+
+
+					"title": "Getting a new payment card"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/what-is-combined-billing",
+
+
+
+					"label": "what-is-combined-billing",
+
+
+
+					"title": "Understanding combined billing"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/whats-the-direct-debit-guarantee",
+
+
+
+					"label": "whats-the-direct-debit-guarantee",
+
+
+
+					"title": "Understanding the Direct Debit Guarantee"
+
+
+
+				}],
+
+
+
+				"webchat-queue": "c_creditenrgysrvc",
+
+
+
+				"webchat-opening-hours": "Monday to Friday: 8am - 8pm, Saturday 8am - 6pm"
+
+
+
+			},
+
+
+
+			"relationships": {
+
+
+
+				"category": {
+
+
+
+					"data": {
+
+
+
+						"id": "bills-and-payments",
+
+
+
+						"type": "categories"
+
+
+
+					}
+
+
+
+				}
+
+
+
+			}
+
+
+
+		}, {
+
+
+
+			"id": "2",
+
+
+
+			"type": "support-params",
+
+
+
+			"attributes": {
+
+
+
+				"formatted-answer": "services-products",
+
+
+
+				"answer-supporting-info": "<p><span class=\"small-text\">Any other products we sell, from HomeCare cover to engineer appointments<\/span><\/p>\n",
+
+
+
+				"label": "Home Services",
+
+
+
+				"telephone-numbers": [{
+
+
+
+					"label": "Services enquiries",
+
+
+
+					"number": "0333 200 8899",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Textphone",
+
+
+
+					"number": "18001 0800 072 8626",
+
+
+
+					"superscript": "1"
+
+
+
+				}],
+
+
+
+				"query-types": [{
+
+
+
+					"value": "Billing enquiry/meter reading"
+
+
+
+				}, {
+
+
+
+					"value": "Refunds"
+
+
+
+				}, {
+
+
+
+					"value": "Tariff/prices"
+
+
+
+				}, {
+
+
+
+					"value": "Other Bills & payment enquiries"
+
+
+
+				}, {
+
+
+
+					"value": "Direct Debit/Payment scheme"
+
+
+
+				}, {
+
+
+
+					"value": "Make a complaint"
+
+
+
+				}],
+
+
+
+				"articles": [{
+
+
+
+					"path": "/content/britishgas/help/bills-and-payments/how-can-i-pay-my-bill",
+
+
+
+					"label": "how-can-i-pay-my-bill",
+
+
+
+					"title": "Paying your bill"
+
+
+
+				}],
+
+
+
+				"webchat-queue": "c_bgrsdigisrvc",
+
+
+
+				"webchat-opening-hours": "Monday to Friday: 7am - 10pm, Saturday and Sunday 8am - 6pm"
+
+
+
+			},
+
+
+
+			"relationships": {
+
+
+
+				"category": {
+
+
+
+					"data": {
+
+
+
+						"id": "bills-and-payments",
+
+
+
+						"type": "categories"
+
+
+
+					}
+
+
+
+				}
+
+
+
+			}
+
+
+
+		}, {
+
+
+
+			"id": "3",
+
+
+
+			"type": "support-params",
+
+
+
+			"attributes": {
+
+
+
+				"telephone-numbers": [{
+
+
+
+					"label": "Online enquiries",
+
+
+
+					"number": "0333 202 9511",
+
+
+
+					"superscript": "2"
+
+
+
+				}, {
+
+
+
+					"label": "Breakdowns and enquiries",
+
+
+
+					"number": "0333 200 8899",
+
+
+
+					"superscript": "2"
+
+
+
+				}, {
+
+
+
+					"label": "Annual service visits",
+
+
+
+					"number": "0330 100 0079",
+
+
+
+					"superscript": "2"
+
+
+
+				}, {
+
+
+
+					"label": "One-off repairs",
+
+
+
+					"number": "0333 202 9799",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "New/Replacement boilers",
+
+
+
+					"number": "0333 202 9450",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Welsh speakers",
+
+
+
+					"number": "0333 202 9630",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Textphone",
+
+
+
+					"number": "18001 0800 316 3772",
+
+
+
+					"superscript": "1"
+
+
+
+				}],
+
+
+
+				"query-types": [{
+
+
+
+					"value": "Upgrade my agreement"
+
+
+
+				}, {
+
+
+
+					"value": "Amend or cancel an existing appointment"
+
+
+
+				}, {
+
+
+
+					"value": "Billing & payment enquiries"
+
+
+
+				}, {
+
+
+
+					"value": "Book an engineer or annual service"
+
+
+
+				}, {
+
+
+
+					"value": "Query on recent visit"
+
+
+
+				}, {
+
+
+
+					"value": "Other Appliances & engineer enquiries"
+
+
+
+				}, {
+
+
+
+					"value": "Make a complaint"
+
+
+
+				}],
+
+
+
+				"articles": [{
+
+
+
+					"path": "/content/britishgas/help/appliances-and-engineers/how-can-you-help-me-with-my-gas-or-boiler-annual-service",
+
+
+
+					"label": "how-can-you-help-me-with-my-gas-or-boiler-annual-service",
+
+
+
+					"title": "Boiler & gas annual services"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/appliances-and-engineers/how-can-you-help-me-with-my-boiler",
+
+
+
+					"label": "how-can-you-help-me-with-my-boiler",
+
+
+
+					"title": "Learning about your boiler"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/appliances-and-engineers/how-can-you-help-me-with-my-gas-appliances",
+
+
+
+					"label": "how-can-you-help-me-with-my-gas-appliances",
+
+
+
+					"title": "Help with gas appliances"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/appliances-and-engineers/how-can-you-help-me-with-my-radiators",
+
+
+
+					"label": "how-can-you-help-me-with-my-radiators",
+
+
+
+					"title": "Radiator issues"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/appliances-and-engineers/how-can-you-help-me-with-my-washing-machine-or-tumble-dryer",
+
+
+
+					"label": "how-can-you-help-me-with-my-washing-machine-or-tumble-dryer",
+
+
+
+					"title": "Washing machine or tumble dryer support"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/appliances-and-engineers/how-can-you-help-me-with-my-oven-grill-or-hob",
+
+
+
+					"label": "how-can-you-help-me-with-my-oven-grill-or-hob",
+
+
+
+					"title": "Help with your cooker"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/appliances-and-engineers/do-i-need-a-gas-safety-certificate-cp12-and-a-electrical-installation-condition-report-eicr",
+
+
+
+					"label": "do-i-need-a-gas-safety-certificate-cp12-and-a-electrical-installation-condition-report-eicr",
+
+
+
+					"title": "Gas and electrical safety requirements for landlords"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/appliances-and-engineers/can-my-tenant-book-the-gas-safety-inspection",
+
+
+
+					"label": "can-my-tenant-book-the-gas-safety-inspection",
+
+
+
+					"title": "Booking a gas safety inspection for tenants"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/appliances-and-engineers/how-can-you-help-me-with-my-fridge-or-freezer",
+
+
+
+					"label": "how-can-you-help-me-with-my-fridge-or-freezer",
+
+
+
+					"title": "Fridge or freezer problems"
+
+
+
+				}],
+
+
+
+				"webchat-queue": "c_bgrsdigisrvc",
+
+
+
+				"webchat-opening-hours": "Monday to Friday: 7am - 10pm, Saturday and Sunday 8am - 6pm"
+
+
+
+			},
+
+
+
+			"relationships": {
+
+
+
+				"category": {
+
+
+
+					"data": {
+
+
+
+						"id": "appliances-and-engineers",
+
+
+
+						"type": "categories"
+
+
+
+					}
+
+
+
+				}
+
+
+
+			}
+
+
+
+		}, {
+
+
+
+			"id": "4",
+
+
+
+			"type": "support-params",
+
+
+
+			"attributes": {
+
+
+
+				"formatted-answer": "gas-and-electricity",
+
+
+
+				"answer-supporting-info": "<p><span class=\"small-text\">Including gas & electricity products and services<\/span><\/p>\n",
+
+
+
+				"label": "Energy",
+
+
+
+				"telephone-numbers": [{
+
+
+
+					"label": "Gas Emergencies",
+
+
+
+					"number": "0800 111 999",
+
+
+
+					"superscript": "2"
+
+
+
+				}, {
+
+
+
+					"label": "Pay as you go enquiries",
+
+
+
+					"number": "0330 100 0303",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Gas or electricity theft",
+
+
+
+					"number": "0800 587 2737",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Welsh speakers",
+
+
+
+					"number": "0333 202 9630",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Textphone",
+
+
+
+					"number": "18001 0800 072 8626",
+
+
+
+					"superscript": "1"
+
+
+
+				}],
+
+
+
+				"query-types": [{
+
+
+
+					"value": "Amend or cancel an existing appointment"
+
+
+
+				}, {
+
+
+
+					"value": "Query on recent visit"
+
+
+
+				}, {
+
+
+
+					"value": "Book an engineer or annual service"
+
+
+
+				}, {
+
+
+
+					"value": "A fault with the website"
+
+
+
+				}, {
+
+
+
+					"value": "A fault with my mobile App"
+
+
+
+				}, {
+
+
+
+					"value": "Other Homecare/Engineer enquiries"
+
+
+
+				}, {
+
+
+
+					"value": "Other Gas/Electricity enquiries"
+
+
+
+				}, {
+
+
+
+					"value": "Raise a complaint"
+
+
+
+				}],
+
+
+
+				"articles": [{
+
+
+
+					"path": "/content/britishgas/help/breakdowns/what-should-i-do-if-i-think-my-meter-is-broken",
+
+
+
+					"label": "what-should-i-do-if-i-think-my-meter-is-broken",
+
+
+
+					"title": "If your meter isn\u2019t working"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/breakdowns/what-should-i-do-if-i-have-no-electricity",
+
+
+
+					"label": "what-should-i-do-if-i-have-no-electricity",
+
+
+
+					"title": "If you don\u2019t have electricity"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/breakdowns/what-if-i-have-a-pay-as-you-go-meter-but-cant-get-any-gas-or-electricity",
+
+
+
+					"label": "what-if-i-have-a-pay-as-you-go-meter-but-cant-get-any-gas-or-electricity",
+
+
+
+					"title": "If you don\u2019t have gas or electricity, but have a pay as you go meter"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/breakdowns/how-do-i-turn-off-my-gas",
+
+
+
+					"label": "how-do-i-turn-off-my-gas",
+
+
+
+					"title": "Turning off your gas"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/breakdowns/what-do-i-do-if-i-think-i-have-a-gas-leak",
+
+
+
+					"label": "what-do-i-do-if-i-think-i-have-a-gas-leak",
+
+
+
+					"title": "Gas leaks"
+
+
+
+				}],
+
+
+
+				"webchat-queue": "c_creditenrgysrvc",
+
+
+
+				"webchat-opening-hours": "Monday to Friday: 8am - 8pm, Saturday 8am - 6pm"
+
+
+
+			},
+
+
+
+			"relationships": {
+
+
+
+				"category": {
+
+
+
+					"data": {
+
+
+
+						"id": "breakdowns",
+
+
+
+						"type": "categories"
+
+
+
+					}
+
+
+
+				}
+
+
+
+			}
+
+
+
+		}, {
+
+
+
+			"id": "5",
+
+
+
+			"type": "support-params",
+
+
+
+			"attributes": {
+
+
+
+				"formatted-answer": "services-products",
+
+
+
+				"answer-supporting-info": "<p><span class=\"small-text\">Any other products we sell, from HomeCare cover to engineer appointments<\/span><\/p>\n",
+
+
+
+				"label": "Home Services",
+
+
+
+				"telephone-numbers": [{
+
+
+
+					"label": "Breakdowns and enquiries",
+
+
+
+					"number": "0333 200 8899",
+
+
+
+					"superscript": "2"
+
+
+
+				}, {
+
+
+
+					"label": "Annual service visits",
+
+
+
+					"number": "0330 100 0079",
+
+
+
+					"superscript": "2"
+
+
+
+				}, {
+
+
+
+					"label": "One-off repairs",
+
+
+
+					"number": "0333 202 9799",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "New/Replacement boilers",
+
+
+
+					"number": "0333 202 9450",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Bereavement Support",
+
+
+
+					"number": "0800 294 3125",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Welsh speakers",
+
+
+
+					"number": "0333 202 9630",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Textphone",
+
+
+
+					"number": "18001 0800 316 3772",
+
+
+
+					"superscript": "1"
+
+
+
+				}],
+
+
+
+				"query-types": [{
+
+
+
+					"value": "Amend or cancel an existing appointment"
+
+
+
+				}, {
+
+
+
+					"value": "Query on recent visit"
+
+
+
+				}, {
+
+
+
+					"value": "Book an engineer or annual service"
+
+
+
+				}, {
+
+
+
+					"value": "A fault with the website"
+
+
+
+				}, {
+
+
+
+					"value": "A fault with my mobile App"
+
+
+
+				}, {
+
+
+
+					"value": "Other Homecare/Engineer enquiries"
+
+
+
+				}, {
+
+
+
+					"value": "Other Gas/Electricity enquiries"
+
+
+
+				}, {
+
+
+
+					"value": "Make a complaint"
+
+
+
+				}],
+
+
+
+				"articles": [{
+
+
+
+					"path": "/content/britishgas/help/breakdowns/how-can-you-help-if-my-heatings-not-working",
+
+
+
+					"label": "how-can-you-help-if-my-heatings-not-working",
+
+
+
+					"title": "If your heating isn\u2019t working"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/breakdowns/how-can-you-help-me-with-a-breakdown",
+
+
+
+					"label": "how-can-you-help-me-with-a-breakdown",
+
+
+
+					"title": "Help in a breakdown"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/breakdowns/how-can-you-help-me-with-my-leaking-pipes",
+
+
+
+					"label": "how-can-you-help-me-with-my-leaking-pipes",
+
+
+
+					"title": "Fixing leaking pipes"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/breakdowns/what-do-i-do-if-i-think-i-have-a-gas-leak",
+
+
+
+					"label": "what-do-i-do-if-i-think-i-have-a-gas-leak",
+
+
+
+					"title": "Gas leaks"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/breakdowns/how-do-i-turn-off-my-gas",
+
+
+
+					"label": "how-do-i-turn-off-my-gas",
+
+
+
+					"title": "Turning off your gas"
+
+
+
+				}],
+
+
+
+				"webchat-queue": "c_bgrsdigisrvc",
+
+
+
+				"webchat-opening-hours": "Monday to Friday: 7am - 10pm, Saturday and Sunday 8am - 6pm"
+
+
+
+			},
+
+
+
+			"relationships": {
+
+
+
+				"category": {
+
+
+
+					"data": {
+
+
+
+						"id": "breakdowns",
+
+
+
+						"type": "categories"
+
+
+
+					}
+
+
+
+				}
+
+
+
+			}
+
+
+
+		}, {
+
+
+
+			"id": "6",
+
+
+
+			"type": "support-params",
+
+
+
+			"attributes": {
+
+
+
+				"telephone-numbers": [{
+
+
+
+					"label": "Moving home",
+
+
+
+					"number": "0333 202 9802",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Pay As You Go customers",
+
+
+
+					"number": "0330 100 0303",
+
+
+
+					"superscript": "2"
+
+
+
+				}, {
+
+
+
+					"label": "Join British Gas",
+
+
+
+					"number": "0333 202 9505",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Welsh speakers",
+
+
+
+					"number": "0333 202 9630",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Textphone",
+
+
+
+					"number": "18001 0800 072 8626",
+
+
+
+					"superscript": "1"
+
+
+
+				}],
+
+
+
+				"articles": [{
+
+
+
+					"path": "/content/britishgas/help/moving-home/can-you-supply-the-gas-and-electricity-at-my-new-home",
+
+
+
+					"label": "can-you-supply-the-gas-and-electricity-at-my-new-home",
+
+
+
+					"title": "Setting up energy in your new home"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/moving-home/do-you-supply-the-gas-and-electricity-at-my-new-home",
+
+
+
+					"label": "do-you-supply-the-gas-and-electricity-at-my-new-home",
+
+
+
+					"title": "Finding out if we supply your new home"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/moving-home/when-can-i-expect-my-bill-if-ive-just-moved",
+
+
+
+					"label": "when-can-i-expect-my-bill-if-ive-just-moved",
+
+
+
+					"title": "When you\u2019ll get your first bill"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/moving-home/how-do-i-get-my-credit-refunded-if-im-moving-home",
+
+
+
+					"label": "how-do-i-get-my-credit-refunded-if-im-moving-home",
+
+
+
+					"title": "Refunds if you\u2019re moving home"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/moving-home/what-if-i-cant-take-a-meter-reading-before-i-move",
+
+
+
+					"label": "what-if-i-cant-take-a-meter-reading-before-i-move",
+
+
+
+					"title": "If you can\u2019t take a meter reading before you move"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/moving-home/what-do-i-do-if-im-moving-from-a-place-with-a-pay-as-you-go-meter",
+
+
+
+					"label": "what-do-i-do-if-im-moving-from-a-place-with-a-pay-as-you-go-meter",
+
+
+
+					"title": "Moving from a place with a pay as you go meter"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/moving-home/what-if-ive-got-a-bill-that-isnt-for-me",
+
+
+
+					"label": "what-if-ive-got-a-bill-that-isnt-for-me",
+
+
+
+					"title": "Telling us if your bill has the wrong name"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/moving-home/how-do-i-use-pay-as-you-go-meters-in-my-new-home",
+
+
+
+					"label": "how-do-i-use-pay-as-you-go-meters-in-my-new-home",
+
+
+
+					"title": "Using pay as you go meters in your new home"
+
+
+
+				}],
+
+
+
+				"webchat-queue": "moving_home",
+
+
+
+				"webchat-opening-hours": "Monday to Friday: 8am - 8pm, Saturday 8am - 6pm"
+
+
+
+			},
+
+
+
+			"relationships": {
+
+
+
+				"category": {
+
+
+
+					"data": {
+
+
+
+						"id": "moving-home",
+
+
+
+						"type": "categories"
+
+
+
+					}
+
+
+
+				}
+
+
+
+			}
+
+
+
+		}, {
+
+
+
+			"id": "7",
+
+
+
+			"type": "support-params",
+
+
+
+			"attributes": {
+
+
+
+				"formatted-answer": "gas-and-electricity",
+
+
+
+				"answer-supporting-info": "<p><span class=\"small-text\">Including gas & electricity products and services<\/span><\/p>\n",
+
+
+
+				"label": "Energy",
+
+
+
+				"telephone-numbers": [{
+
+
+
+					"label": "Account enquiries",
+
+
+
+					"number": "0333 202 9802",
+
+
+
+					"superscript": "5"
+
+
+
+				}, {
+
+
+
+					"label": "Moving home",
+
+
+
+					"number": "0333 202 9802",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Join British Gas",
+
+
+
+					"number": "0333 202 9505",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Website Technical Support",
+
+
+
+					"number": "0333 202 9805",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Calling from abroad",
+
+
+
+					"number": "+44 113 298 0900",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Bereavement Support",
+
+
+
+					"number": "0800 294 3125",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Welsh speakers",
+
+
+
+					"number": "0333 202 9630",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Textphone",
+
+
+
+					"number": "18001 0800 072 8626",
+
+
+
+					"superscript": "1"
+
+
+
+				}],
+
+
+
+				"query-types": [{
+
+
+
+					"value": "Access/Understand my online bill"
+
+
+
+				}, {
+
+
+
+					"value": "Registering/Logging in/Resetting password"
+
+
+
+				}, {
+
+
+
+					"value": "Submitting a meter reading online"
+
+
+
+				}, {
+
+
+
+					"value": "Make a payment/View my bill online"
+
+
+
+				}, {
+
+
+
+					"value": "Changing my personal details"
+
+
+
+				}, {
+
+
+
+					"value": "Update my email/telephone number"
+
+
+
+				}, {
+
+
+
+					"value": "Other My account enquiries"
+
+
+
+				}],
+
+
+
+				"articles": [{
+
+
+
+					"path": "/content/britishgas/help/my-account/marketing-preferences",
+
+
+
+					"label": "marketing-preferences",
+
+
+
+					"title": "Marketing preferences"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/british-gas-rewards",
+
+
+
+					"label": "british-gas-rewards",
+
+
+
+					"title": "British Gas Rewards"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/can-i-change-my-email-address",
+
+
+
+					"label": "can-i-change-my-email-address",
+
+
+
+					"title": "Changing your email address"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/how-do-i-check-what-tariff-im-on",
+
+
+
+					"label": "how-do-i-check-what-tariff-im-on",
+
+
+
+					"title": "Checking your tariff"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/can-i-register-for-an-online-account",
+
+
+
+					"label": "can-i-register-for-an-online-account",
+
+
+
+					"title": "Getting an online account"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/can-i-find-a-missing-account",
+
+
+
+					"label": "can-i-find-a-missing-account",
+
+
+
+					"title": "Find a missing account"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/how-do-i-change-my-password",
+
+
+
+					"label": "how-do-i-change-my-password",
+
+
+
+					"title": "Changing your password"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/how-do-i-keep-my-online-account-safe",
+
+
+
+					"label": "how-do-i-keep-my-online-account-safe",
+
+
+
+					"title": "Keeping your online account safe"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/how-is-the-way-im-rewarded-changing",
+
+
+
+					"label": "how-is-the-way-im-rewarded-changing",
+
+
+
+					"title": "Changing the way you\u2019re rewarded"
+
+
+
+				}],
+
+
+
+				"webchat-queue": "c_creditenrgysrvc",
+
+
+
+				"webchat-opening-hours": "Monday to Friday: 8am - 8pm, Saturday 8am - 6pm"
+
+
+
+			},
+
+
+
+			"relationships": {
+
+
+
+				"category": {
+
+
+
+					"data": {
+
+
+
+						"id": "my-account",
+
+
+
+						"type": "categories"
+
+
+
+					}
+
+
+
+				}
+
+
+
+			}
+
+
+
+		}, {
+
+
+
+			"id": "8",
+
+
+
+			"type": "support-params",
+
+
+
+			"attributes": {
+
+
+
+				"answer-supporting-info": "<p><span class=\"small-text\">Any other products we sell, from HomeCare cover to engineer appointments<\/span><\/p>\n",
+
+
+
+				"formatted-answer": "services-products",
+
+
+
+				"label": "Home Services",
+
+
+
+				"telephone-numbers": [{
+
+
+
+					"label": "Account enquiries",
+
+
+
+					"number": "0333 200 8899",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Moving home",
+
+
+
+					"number": "0333 202 9802",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Join British Gas",
+
+
+
+					"number": "0333 202 9505",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Website Technical Support",
+
+
+
+					"number": "0333 202 9805",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Bereavement Support",
+
+
+
+					"number": "0800 294 3125",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Calling from abroad",
+
+
+
+					"number": "+44 113 298 0900",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Welsh speakers",
+
+
+
+					"number": "0333 202 9630",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Textphone",
+
+
+
+					"number": "18001 0800 316 3772",
+
+
+
+					"superscript": "1"
+
+
+
+				}],
+
+
+
+				"query-types": [{
+
+
+
+					"value": "Access/Understand my online bill"
+
+
+
+				}, {
+
+
+
+					"value": "Registering/Logging in/Resetting password"
+
+
+
+				}, {
+
+
+
+					"value": "Submitting a meter reading online"
+
+
+
+				}, {
+
+
+
+					"value": "Make a payment/View my bill online"
+
+
+
+				}, {
+
+
+
+					"value": "Changing my personal details"
+
+
+
+				}, {
+
+
+
+					"value": "Update my email/telephone number"
+
+
+
+				}, {
+
+
+
+					"value": "Other My account enquiries"
+
+
+
+				}],
+
+
+
+				"articles": [{
+
+
+
+					"path": "/content/britishgas/help/my-account/marketing-preferences",
+
+
+
+					"label": "marketing-preferences",
+
+
+
+					"title": "Marketing preferences"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/british-gas-rewards",
+
+
+
+					"label": "british-gas-rewards",
+
+
+
+					"title": "British Gas Rewards"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/can-i-change-my-email-address",
+
+
+
+					"label": "can-i-change-my-email-address",
+
+
+
+					"title": "Changing your email address"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/can-i-find-a-missing-account",
+
+
+
+					"label": "can-i-find-a-missing-account",
+
+
+
+					"title": "Find a missing account"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/how-do-i-change-my-password",
+
+
+
+					"label": "how-do-i-change-my-password",
+
+
+
+					"title": "Changing your password"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/can-i-register-for-an-online-account",
+
+
+
+					"label": "can-i-register-for-an-online-account",
+
+
+
+					"title": "Getting an online account"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/how-do-i-keep-my-online-account-safe",
+
+
+
+					"label": "how-do-i-keep-my-online-account-safe",
+
+
+
+					"title": "Keeping your online account safe"
+
+
+
+				}],
+
+
+
+				"webchat-queue": "c_bgrsdigisrvc",
+
+
+
+				"webchat-opening-hours": "Monday to Friday: 7am - 10pm, Saturday and Sunday 8am - 6pm"
+
+
+
+			},
+
+
+
+			"relationships": {
+
+
+
+				"category": {
+
+
+
+					"data": {
+
+
+
+						"id": "my-account",
+
+
+
+						"type": "categories"
+
+
+
+					}
+
+
+
+				}
+
+
+
+			}
+
+
+
+		}, {
+
+
+
+			"id": "9",
+
+
+
+			"type": "support-params",
+
+
+
+			"attributes": {
+
+
+
+				"formatted-answer": "pay-as-you-go",
+
+
+
+				"label": "Pay As You Go",
+
+
+
+				"answer-supporting-info": "<p><span class=\"small-text\">You<b>&nbsp;pay for your energy<\/b> before you&nbsp;use it<\/span><\/p>\n",
+
+
+
+				"telephone-numbers": [{
+
+
+
+					"label": "Pay As You Go enquiries",
+
+
+
+					"number": "0330 100 0303",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Welsh speakers",
+
+
+
+					"number": "0333 202 9630",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Textphone",
+
+
+
+					"number": "18001 0800 072 8626",
+
+
+
+					"superscript": "1"
+
+
+
+				}],
+
+
+
+				"query-types": [{
+
+
+
+					"value": "Meter enquiry"
+
+
+
+				}, {
+
+
+
+					"value": "Tariff/prices"
+
+
+
+				}, {
+
+
+
+					"value": "Other Pay As You Go Energy enquiries"
+
+
+
+				}, {
+
+
+
+					"value": "Make a complaint"
+
+
+
+				}],
+
+
+
+				"articles": [{
+
+
+
+					"path": "/content/britishgas/help/meters/help-with-smart-pay-as-you-go",
+
+
+
+					"label": "help-with-smart-pay-as-you-go",
+
+
+
+					"title": "Help with Smart Pay As You Go"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/can-i-have-a-credit-meter-instead-of-a-pay-as-you-go-meter",
+
+
+
+					"label": "can-i-have-a-credit-meter-instead-of-a-pay-as-you-go-meter",
+
+
+
+					"title": "Changing between pay as you go and credit meters"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/where-can-i-top-up-my-meter",
+
+
+
+					"label": "where-can-i-top-up-my-meter",
+
+
+
+					"title": "Where to top up your meter"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/what-is-emergency-credit",
+
+
+
+					"label": "what-is-emergency-credit",
+
+
+
+					"title": "Using Emergency Credit"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/what-should-i-do-if-i-think-my-meter-is-broken",
+
+
+
+					"label": "what-should-i-do-if-i-think-my-meter-is-broken",
+
+
+
+					"title": "My meter isn\u2019t working"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/what-does-the-message-on-my-meter-mean",
+
+
+
+					"label": "what-does-the-message-on-my-meter-mean",
+
+
+
+					"title": "Understanding messages on your meter"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/how-do-i-pay-you-back-through-my-pay-as-you-go-meter",
+
+
+
+					"label": "how-do-i-pay-you-back-through-my-pay-as-you-go-meter",
+
+
+
+					"title": "Paying us back through your pay as you go meter"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/how-do-i-get-my-pay-as-you-go-meter-reading",
+
+
+
+					"label": "how-do-i-get-my-pay-as-you-go-meter-reading",
+
+
+
+					"title": "Getting your pay as you go meter reading"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/my-account/how-do-i-get-a-new-card-or-key-for-my-meter",
+
+
+
+					"label": "how-do-i-get-a-new-card-or-key-for-my-meter",
+
+
+
+					"title": "Getting new Pay As You Go cards & keys"	
+
+
+
+				}],
+
+
+
+				"webchat-queue": "c_payge",
+
+
+
+				"webchat-opening-hours": "Monday to Friday: 8am - 8pm, Saturday 8am - 6pm"
+
+
+
+			},
+
+
+
+			"relationships": {
+
+
+
+				"category": {
+
+
+
+					"data": {
+
+
+
+						"id": "meters",
+
+
+
+						"type": "categories"
+
+
+
+					}
+
+
+
+				}
+
+
+
+			}
+
+
+
+		}, {
+
+
+
+			"id": "10",
+
+
+
+			"type": "support-params",
+
+
+
+			"attributes": {
+
+
+
+				"formatted-answer": "monthly-or-quarterly",
+
+
+
+				"answer-supporting-info": "<p><span class=\"small-text\">You <b>&nbsp;use your energy<\/b> before you pay for it<\/span><\/p>\n",
+
+
+
+				"label": "Monthly or quarterly",
+
+
+
+				"telephone-numbers": [{
+
+
+
+					"label": "Account enquiries",
+
+
+
+					"number": "0333 202 9802",
+
+
+
+					"superscript": "5"
+
+
+
+				}, {
+
+
+
+					"label": "Welsh speakers",
+
+
+
+					"number": "0333 202 9630",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Textphone",
+
+
+
+					"number": "18001 0800 072 8626",
+
+
+
+					"superscript": "1"
+
+
+
+				}],
+
+
+
+				"query-types": [{
+
+
+
+					"value": "Billing enquiry/Meter reading"
+
+
+
+				}, {
+
+
+
+					"value": "Meter enquiry"
+
+
+
+				}, {
+
+
+
+					"value": "Submitting a meter reading online"
+
+
+
+				}, {
+
+
+
+					"value": "Make a complaint"
+
+
+
+				}],
+
+
+
+				"articles": [{
+
+
+
+					"path": "/content/britishgas/help/meters/how-to-read-your-meter",
+
+
+
+					"label": "how-to-read-your-meter",
+
+
+
+					"title": "How to read your meter"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/how-to-take-a-reading-on-a-smart-meter",
+
+
+
+					"label": "how-to-take-a-reading-on-a-smart-meter",
+
+
+
+					"title": "How to take a reading on a smart meter"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/what-to-expect-when-you-get-a-smart-meter",
+
+
+
+					"label": "what-to-expect-when-you-get-a-smart-meter",
+
+
+
+					"title": "What to expect when you get a smart meter"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/using-your-smart-energy-monitor",
+
+
+
+					"label": "using-your-smart-energy-monitor",
+
+
+
+					"title": "Using your smart energy monitor"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/what-should-i-do-if-i-think-my-meter-is-broken",
+
+
+
+					"label": "what-should-i-do-if-i-think-my-meter-is-broken",
+
+
+
+					"title": "My meter isn't working"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/can-i-give-you-a-meter-reading-online",
+
+
+
+					"label": "can-i-give-you-a-meter-reading-online",
+
+
+
+					"title": "Submitting a meter reading online"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/meters/what-does-the-message-on-my-meter-mean",
+
+
+
+					"label": "what-does-the-message-on-my-meter-mean",
+
+
+
+					"title": "Understanding messages on your meter"
+
+
+
+				}],
+
+
+
+				"webchat-queue": "c_creditenrgysrvc",
+
+
+
+				"webchat-opening-hours": "Monday to Friday: 8am - 8pm, Saturday 8am - 6pm"
+
+
+
+			},
+
+
+
+			"relationships": {
+
+
+
+				"category": {
+
+
+
+					"data": {
+
+
+
+						"id": "meters",
+
+
+
+						"type": "categories"
+
+
+
+					}
+
+
+
+				}
+
+
+
+			}
+
+
+
+		},
+
+
+
+		{
+
+
+
+			"id": "11",
+
+
+
+			"type": "support-params",
+
+
+
+			"attributes": {
+
+
+
+				"telephone-numbers": [{
+
+
+
+					"label": "Website Technical Support",
+
+
+
+					"number": "0333 202 9805",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Welsh speakers",
+
+
+
+					"number": "0333 202 9630",
+
+
+
+					"superscript": "1"
+
+
+
+				}, {
+
+
+
+					"label": "Textphone",
+
+
+
+					"number": "18001 0800 072 8626",
+
+
+
+					"superscript": "1"
+
+
+
+				}],
+
+
+
+				"query-types": [{
+
+
+
+					"value": "A fault with the website"
+
+
+
+				}, {
+
+
+
+					"value": "A fault with my mobile App"
+
+
+
+				}, {
+
+
+
+					"value": "Other Technical support enquiries"
+
+
+
+				}],
+
+
+
+				"articles": [{
+
+
+
+					"path": "/content/britishgas/help/technical-support/can-i-change-my-email-address",
+
+
+
+					"label": "can-i-change-my-email-address",
+
+
+
+					"title": "Changing your email address"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/technical-support/how-do-i-change-my-password",
+
+
+
+					"label": "how-do-i-change-my-password",
+
+
+
+					"title": "Changing your password"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/technical-support/how-to-contact-us",
+
+
+
+					"label": "how-to-contact-us",
+
+
+
+					"title": "How to contact us"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/technical-support/help-with-hive-active-heating",
+
+
+
+					"label": "help-with-hive-active-heating",
+
+
+
+					"title": "Help with Hive Active Heating"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/technical-support/can-you-help-me-with-the-british-gas-app",
+
+
+
+					"label": "can-you-help-me-with-the-british-gas-app",
+
+
+
+					"title": "Using the British Gas app"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/technical-support/how-can-you-help-me-with-my-remote-heating-control",
+
+
+
+					"label": "how-can-you-help-me-with-my-remote-heating-control",
+
+
+
+					"title": "Using your remote heating control"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/technical-support/what-do-i-do-if-ive-been-sent-a-scam-email",
+
+
+
+					"label": "what-do-i-do-if-ive-been-sent-a-scam-email",
+
+
+
+					"title": "If you get a suspicious email"
+
+
+
+				}, {
+
+
+
+					"path": "/content/britishgas/help/technical-support/how-do-i-keep-my-online-account-safe",
+
+
+
+					"label": "how-do-i-keep-my-online-account-safe",
+
+
+
+					"title": "Keeping your online account safe"
+
+
+
+
+
+
+
+				}],
+
+
+
+				"webchat-queue": "c_bgredigisrvc",
+
+
+
+				"webchat-opening-hours": "Monday to Friday: 7am - 10pm, Saturday 8am - 6pm"
+
+
+
+			},
+
+
+
+			"relationships": {
+
+
+
+				"category": {
+
+
+
+					"data": {
+
+
+
+						"id": "technical-support",
+
+
+
+						"type": "categories"
+
+
+
+					}
+
+
+
+				}
+
+
+
+			}
+
+
+
+		}
+
+
+
+	]
+
+
+
+}
